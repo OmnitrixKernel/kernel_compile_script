@@ -2,7 +2,7 @@
 #set -e
 # Clone kernel
 echo -e "$green << cloning kernel >> \n $white"
-git clone --depth=1 https://github.com/Sweet-stuff/kernel_xiaomi_sweet 13
+git clone --depth=1 https://github.com/OmnitrixKernel/kernel_xiaomi_sweet.git 13
 cd 13
 
 KERNEL_DEFCONFIG=vendor/sweet_user_defconfig
